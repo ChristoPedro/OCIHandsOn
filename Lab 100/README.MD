@@ -47,3 +47,13 @@ VCN CIDR Block representa o tamanho da sua rede, no OCI é possivel criar redes 
 <p align="center">
   <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20100/images/basicinfo.png" >
 </p>
+
+Depois Click em Next->Create
+
+Quando o Winzard Terminar você vai encontrar uma tela como essa:
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20100/images/finished.png" >
+</p>
+
+Depois podemos criar em View Virtual Cloud Network para enenteder melhor os elementos que foram criados.
