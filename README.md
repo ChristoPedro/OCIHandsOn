@@ -1,2 +1,2 @@
-# OCIHandsOn
-Workshop hands on OCI
+# OCI Hands On
+Workshop hands on
