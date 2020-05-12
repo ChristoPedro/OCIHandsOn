@@ -8,13 +8,13 @@ Para mais informações sobre redes temos [aqui](https://docs.cloud.oracle.com/e
 
 ## Criação de uma VCN (Virtual Cloud Network)
 
-1. No action menu acessar Networking->Virtual Cloud Networking
+### 1. No action menu acessar Networking->Virtual Cloud Networking
 
 <p align="center">
   <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20100/images/acessvnc.png" >
 </p>
 
-2. Mudar o compartment para workshopOCI
+### 2. Mudar o compartment para workshopOCI
 
 No campo esquerto da tela temos um drop list com os compartments, selecione o compartment workshopOCI que criamos no lab anterior.
 
@@ -22,19 +22,19 @@ No campo esquerto da tela temos um drop list com os compartments, selecione o co
   <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20100/images/changecompartment.png" >
 </p>
 
-3. Clicar em Start VNC Wizard
+### 3. Clicar em Start VNC Wizard
 
 <p align="center">
   <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20100/images/vncwizard.png" >
 </p>
 
-4. Selecionar VNC With Internet Connectivity
+### 4. Selecionar VNC With Internet Connectivity
 
 <p align="center">
   <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20100/images/internetconect.png" >
 </p>
 
-5. Preencher as informações:
+### 5. Preencher as informações:
 
 - VCN Name: workshopVNC
 - Compartment: workshopOCI
