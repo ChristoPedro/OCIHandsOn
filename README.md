@@ -18,4 +18,4 @@ Lab 400 - Banco de Dados
 
 - Uma conta de Oracle Cloud com recursos disponíveis
 - Uma ferramenta para realizar SSH (Terminal/Gitbash/Putty)
-- Um par de chaves SSH podem ser encontrados na pasta  (/Chaves)
+- Um par de chaves SSH podem ser encontrados na [pasta](Chaves)
