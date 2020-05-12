@@ -111,6 +111,6 @@ Vamos logar como opc
 Se tudo ocorrer corretamente já terá acesso ao Bastion
 
 <p align="center">
-  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20200/images/Bastion.png" >
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20200/images/bastion.png" >
 </p>
 
