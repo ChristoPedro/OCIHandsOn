@@ -8,11 +8,11 @@ Nesse hands on, vamos explorar os recursos disponíveis no Oracle Cloud Infrastr
 
 ## Agenda
 
-- [Lab 000 - Acessando a Oracle Cloud](Lab 000)
-- [Lab 100 - Network](Lab 100)
-- [Lab 200 - Compute](Lab 200)
-- [Lab 300 - Storage](Lab 300)
-- [Lab 400 - Banco de Dados](Lab 400)
+- Lab 000 - Acessando a Oracle Cloud
+- Lab 100 - Network
+- Lab 200 - Compute
+- Lab 300 - Storage
+- Lab 400 - Banco de Dados
 
 ## Pré Requisitos
 
