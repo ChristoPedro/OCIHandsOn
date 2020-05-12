@@ -138,6 +138,8 @@ Vamos alterar as permissões de acesso do arquivo utilizando o comando:
 
 ```$ ssh -i key opc@<ipprivado>```
 
+Se tudo ocorrer como esperado vai conseguir conectar a instência private
+
 <p align="center">
   <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20200/images/connectingprivate.png" >
 </p>
