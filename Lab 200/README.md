@@ -114,3 +114,30 @@ Se tudo ocorrer corretamente já terá acesso ao Bastion
   <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20200/images/bastion.png" >
 </p>
 
+## Acessando a Instância Private
+
+Vamos acessar a instancia Private através da bastion utilizando SSH no Linux.
+
+### 1. Copiar a chave Privada para o Bastion
+
+Copiar o conteúdo do arquivo da chave privada, criar um arquivo no bastion chamado key e colocar no aquivo criado key
+
+```$ vi key```
+
+Quando o editor estiver aberto basta apertar i para poder editar o documento vazio e colocar o conteudo
+
+Para salvar e sair do editor utilizamos o comando:
+
+```:wq```
+
+Vamos alterar as permissões de acesso do arquivo utilizando o comando:
+
+```$ chmod 600```
+
+### 2. Conectar a instância privada através de SSH
+
+```$ ssh -i key opc@<ipprivado>```
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20200/images/connectingprivate.png" >
+</p>
