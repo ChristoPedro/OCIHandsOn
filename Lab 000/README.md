@@ -35,5 +35,12 @@ Digite o nome da sua Conta/Tenancy no campo Cloud Account Name.
 1. No action menu, bloco Governance and Administration ir em Identity->Compartiments
 
 <p align="center">
-  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20000/images/acesscompartment.png" >
+  <img hight=200px src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20000/images/acesscompartment.png" >
 </p>
+
+2. Clique em Create Compartment
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20000/images/createcompartment.png" >
+</p>
+
