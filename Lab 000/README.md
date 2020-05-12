@@ -35,7 +35,7 @@ Digite o nome da sua Conta/Tenancy no campo Cloud Account Name.
 1. No action menu, bloco Governance and Administration ir em Identity->Compartiments
 
 <p align="center">
-  <img hight=200px src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20000/images/acesscompartment.png" >
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20000/images/acesscompartment.png" >
 </p>
 
 2. Clique em Create Compartment
@@ -44,3 +44,14 @@ Digite o nome da sua Conta/Tenancy no campo Cloud Account Name.
   <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20000/images/createcompartment.png" >
 </p>
 
+3. Preecha os campos: 
+
+- Name: workshopOCI 
+- Description: Compartment para Workshop de OCI
+- Parent Compartment: seu Root compartment
+
+Depois click em Create Compartment
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20000/images/workshopoci.png" >
+</p>
