@@ -8,4 +8,6 @@ Digite o nome da sua Conta/Tenancy no campo Cloud Account Name.
 
 2. Iserir suas credenciais de usuário ou logar por SSO.
 
+<p align="center">
 ![Credentials](images/login.png)
+</p>
