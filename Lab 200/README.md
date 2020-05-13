@@ -100,7 +100,13 @@ Depois, no menu a esquerda vamos em SSH->Auth e vamos selecionar a chave privada
   <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20200/images/puttypt2.png" >
 </p>
 
-Depois voltar a Session e clicar em Open
+Depois voltar para Session
+
+Salvar a Conexão com o nome Bastion assim como nas imagem e clicar em open
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20200/images/savebastion.png" >
+</p>
 
 Vamos logar como opc
 
@@ -116,30 +122,46 @@ Se tudo ocorrer corretamente já terá acesso ao Bastion
 
 ## Acessando a Instância Private
 
-Vamos acessar a instancia Private através da bastion utilizando SSH no Linux.
+Podemos acessar a instância na subnetprivada de algumas maneiras diferentes, abaixo temos o exemplo de tunelamento através do putty.
 
-### 1. Copiar a chave Privada para o Bastion
+### 1. Tunelamento através do Putty
 
-Copiar o conteúdo do arquivo da chave privada, criar um arquivo no bastion chamado key e colocar no aquivo criado key
+Vamos fechar a instancia aberta do putty e abrir novamente, se a conexão já estiver salva, é só selecionar na lista e adicionar a chave privada novamente.
 
-```$ vi key```
+Mas antes de se conectar no Menu do canto esquerdo vamos em Connection->SSH->Tunnels
 
-Quando o editor estiver aberto basta apertar i para poder editar o documento vazio e colocar o conteudo
+Vamos preencher os campos com:
 
-Para salvar e sair do editor utilizamos o comando:
-
-```:wq```
-
-Vamos alterar as permissões de acesso do arquivo utilizando o comando:
-
-```$ chmod 600```
-
-### 2. Conectar a instância privada através de SSH
-
-```$ ssh -i key opc@<ipprivado>```
-
-Se tudo ocorrer como esperado vai conseguir conectar a instência private
+- Source Port: 5000 - Essa será a porta local onde o trafego será direcionado
+- Destination:{ip privado}:22 - ip privado e a porta de destino do tunnel
 
 <p align="center">
-  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20200/images/connectingprivate.png" >
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20200/images/tunnel1.png" >
+</p>
+
+Depois clicar em Add
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20200/images/tunnel2.png" >
+</p>
+
+Com o tunnel adicionado basta apenas clicar em Open e inicar a conexão com a VM Bastion
+
+### 2. Conectar à Instância privada através do tunnel
+
+Agora vamos abrir outra javela no putty, sem fechar a anterior e configurar a conexão, mas dessa vez vamos preecher a seguinte forma
+
+- Hostname: localhost
+- Port 5000
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20200/images/conectionprivada.png" >
+</p>
+
+Adicione a chave privada como anteriormente e clique em open
+
+Se tudo estiver correto será capaz de conectar
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20200/images/conexaoprivada.png" >
 </p>
