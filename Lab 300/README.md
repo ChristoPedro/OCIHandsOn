@@ -83,3 +83,28 @@ Colar os comandos no terminal do Bastion e executa-los
   <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20300/images/logical1.png" >
 </p>
 
+Detectar o novo disco
+
+```# sudo su - ```
+```# fdisk -l```
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20300/images/mount1.png" >
+</p>
+
+Formatar o disco
+
+```# mkfs /dev/sdb```
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20300/images/mount2.png" >
+</p>
+
+Mountar o File System
+
+```# mkdir /BKP```
+```# mount /dev/sdb /BKP```
+```# df -h```
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20300/images/mount3.png" >
+</p>
