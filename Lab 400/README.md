@@ -51,3 +51,54 @@ E então clicar em
 <p align="center">
   <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20400/images/provisioning.png" >
 </p>
+
+## Criar conexão com o banco criado
+
+### 1. Primeiro precisamos adicionar o banco a uma NSG para habilidar a porta 1521
+
+Acessar a sua VNC de pois ir em Network Security Group e clicar em Create Network Security Group
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20400/images/creatensg.png" >
+</p>
+
+E Preencher os Campos
+
+- Name: databaseSG
+- Compartment: O compartment criado no Lab 000
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20400/images/creatensg1.png" >
+</p>
+
+E Clicar em next
+
+Agore precisamos escrever a regra de ingress para a NSG
+
+- Direction: Ingress
+- Source Type: CIDR
+- Source CIDR: 0.0.0.0/0
+- IP Protocol: TCP
+- Destination Port Range: 1521
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20400/images/creatensg2.png" >
+</p>
+
+Deplois Clicar em Create
+
+### 2. Vincular a NSG ao Banco de Dados
+
+Voltando a página do Banco de Dados criados, vamos clicar em edit do lado de NSG
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20400/images/creatensg3.png" >
+</p>
+
+Selecionar a NSG Criada e Salvar
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20400/images/creatensg4.png" >
+</p>
+
+### 3. Conectando ao Banco através do SQLDeveloper
