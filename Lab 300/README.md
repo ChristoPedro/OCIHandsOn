@@ -103,8 +103,11 @@ Formatar o disco
 Mountar o File System
 
 ```# mkdir /BKP```
+
 ```# mount /dev/sdb /BKP```
+
 ```# df -h```
+
 <p align="center">
   <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20300/images/mount3.png" >
 </p>
