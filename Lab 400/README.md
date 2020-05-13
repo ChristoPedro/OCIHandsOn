@@ -101,4 +101,33 @@ Selecionar a NSG Criada e Salvar
   <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20400/images/creatensg4.png" >
 </p>
 
+### 4. Antes de Conctar precisamos de algumas informações
+
+- Primeiro o nome do seu database que vai ser seu SID
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20400/images/databasename.png" >
+</p>
+
+- Depois vamos até a lista de nodes e conseguir o IP Público
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20400/images/ippublico.png" >
+</p>
+
 ### 3. Conectando ao Banco através do SQLDeveloper
+
+
+Abrindo o SQLDeveloper crie uma nova conexão preencha o dados.
+
+- Name: WorkshopDB
+- Nome do Usuário: sys as sysdba
+- Senha: A senha que utilizou na criação do database
+- Hostname: Ip Publico do node
+- SID: nome do database
+
+Depois é só testar a conexão e se conectar
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20400/images/testeconnection.png" >
+</p>
