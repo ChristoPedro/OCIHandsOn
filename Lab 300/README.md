@@ -44,3 +44,10 @@ Vamos esperar o ícone do BV ficar ver e available
 
 ## Conectar o Block Volume a Instancia Pública
 
+### 1. Dentro dos detalhas do boot volume vamos em Atacched Instances
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20300/images/attached1.png" >
+</p>
+
+### 2. 
