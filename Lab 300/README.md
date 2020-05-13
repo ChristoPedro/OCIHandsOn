@@ -38,7 +38,7 @@ Nesse lab vamos criar um Block Valume e associá-lo a nossa VM Púlica
   <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20300/images/createscreen.png" >
 </p>
 
-### Clickar em Create Block Volume
+### 5. Clicar em Create Block Volume
 
 Vamos esperar o ícone do BV ficar ver e available
 
