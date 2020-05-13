@@ -25,7 +25,7 @@ Nesse lab vamos criar um Block Valume e associá-lo a nossa VM Púlica
 ### 3. Clicar em Create Block Volume
 
 <p align="center">
-  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20100/images/createblock.png" >
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20300/images/createblock.png" >
 </p>
 
 ### 4. Preecher os campos
@@ -35,7 +35,7 @@ Nesse lab vamos criar um Block Valume e associá-lo a nossa VM Púlica
 - Volume Performance: Balanced
 
 <p align="center">
-  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20100/images/createscreen.png" >
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20300/images/createscreen.png" >
 </p>
 
 ### Clickar em Create Block Volume
