@@ -50,4 +50,36 @@ Vamos esperar o ícone do BV ficar ver e available
   <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20300/images/attached1.png" >
 </p>
 
-### 2. 
+### 2. Clicar em Attach Instance
+
+- Selecionar a instência Bastion
+- E qualquer Device Name
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20300/images/attached2.png" >
+</p>
+
+Clicar em Attach
+
+### 3. Copiar comandos
+
+Com o block attachado vamos clicar no menu do lado direito da lista de instâncias e ir em iCSI Commands & Information
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20300/images/attached3.png" >
+</p>
+
+E copiar os comando para realizar o Attach lógico
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20300/images/attached4.png" >
+</p>
+
+### 4. Criado o Attach lógico
+
+Colar os comandos no terminal do Bastion e executa-los
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20300/images/logical1.png" >
+</p>
+
