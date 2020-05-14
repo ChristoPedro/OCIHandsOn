@@ -1,6 +1,10 @@
 # Compute
 
-Nesse lab vamos criar duas instancias de compute, uma em uma subnet publica e outra em uma subnet privada. Vamos utilizar a instancia na rede pública como bastion para acessar a instancia na rede privada.
+Nesse lab vamos criar duas instancias de compute, uma em uma subnet publica e outra em uma subnet privada. Vamos utilizar a instancia na rede pública como bastion para acessar a instancia na rede privada. Abaixo temos o desenho da arquiteutra.
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20200/images/tenuel.png" >
+</p>
 
 Para mais informações sobre compute intances acesse a documentação [aqui](https://docs.cloud.oracle.com/en-us/iaas/Content/Compute/Concepts/computeoverview.htm)
 
@@ -122,7 +126,13 @@ Se tudo ocorrer corretamente já terá acesso ao Bastion
 
 ## Acessando a Instância Private
 
-Podemos acessar a instância na subnetprivada de algumas maneiras diferentes, abaixo temos o exemplo de tunelamento através do putty.
+Essa é a arquitetura construida, podemos ver que a instância privada não tem acesso direto a Internet, então para poder acessá-la vamos fazer um tunel através do Bastion.
+
+<p align="center">
+  <img src="https://github.com/ChristoPedro/OCIHandsOn/blob/master/Lab%20200/images/tenuel1.jpg" >
+</p>
+
+Abaixo temos o exemplo de tunelamento através do putty, mas também pode ser feito através de SSH ou do MobaXterm.
 
 ### 1. Tunelamento através do Putty
 
